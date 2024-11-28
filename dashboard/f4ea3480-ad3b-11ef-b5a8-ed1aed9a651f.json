@@ -102,7 +102,7 @@
               "hideAggregation" : false,
               "hideAggInterval" : false,
               "hideTimezone" : false,
-              "selectedTab" : 0,
+              "selectedTab" : 1,
               "realtime" : {
                 "realtimeType" : 0,
                 "interval" : 60000,
@@ -114,8 +114,8 @@
               },
               "history" : {
                 "historyType" : 0,
-                "interval" : 300000,
-                "timewindowMs" : 7200000,
+                "interval" : 60000,
+                "timewindowMs" : 120000,
                 "fixedTimewindow" : {
                   "startTimeMs" : 1732679576444,
                   "endTimeMs" : 1732765976444
