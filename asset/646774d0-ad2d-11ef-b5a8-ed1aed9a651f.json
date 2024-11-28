@@ -1,0 +1,41 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "some building with sensors"
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "7a1c18d0-ad2d-11ef-b5a8-ed1aed9a651f"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "646774d0-ad2d-11ef-b5a8-ed1aed9a651f"
+    },
+    "label" : null,
+    "name" : "building1",
+    "type" : "building"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "646774d0-ad2d-11ef-b5a8-ed1aed9a651f"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b23de8b0-ad2d-11ef-b5a8-ed1aed9a651f"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 1253857
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
