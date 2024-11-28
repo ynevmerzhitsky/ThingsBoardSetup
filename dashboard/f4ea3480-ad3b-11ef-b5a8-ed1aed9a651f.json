@@ -530,8 +530,8 @@
               "ticksAngle" : 270,
               "needleCircleSize" : 8,
               "defaultColor" : "#e65100",
-              "minValue" : 0,
-              "maxValue" : 40,
+              "minValue" : 10,
+              "maxValue" : 50,
               "majorTicksCount" : 9,
               "colorMajorTicks" : "#444",
               "minorTicks" : 9,
@@ -544,7 +544,7 @@
                 "color" : "#616161"
               },
               "numbersColor" : "#616161",
-              "showUnitTitle" : false,
+              "showUnitTitle" : true,
               "unitTitle" : "",
               "titleFont" : {
                 "family" : "Roboto",
@@ -555,24 +555,24 @@
               },
               "titleColor" : "#888",
               "unitsFont" : {
-                "size" : 26,
-                "sizeUnit" : "px",
                 "family" : "Roboto",
-                "weight" : "500",
+                "size" : 26,
                 "style" : "normal",
-                "color" : "#616161"
+                "weight" : "500",
+                "color" : "#616161",
+                "sizeUnit" : "px"
               },
               "unitsColor" : "#616161",
               "valueBox" : true,
               "valueInt" : 3,
               "valueFont" : {
-                "size" : 27,
-                "sizeUnit" : "px",
                 "family" : "Roboto",
-                "weight" : "400",
+                "size" : 27,
                 "style" : "normal",
+                "weight" : "400",
                 "color" : "rgba(0, 0, 0, 0.54)",
-                "shadowColor" : "#FFFFFF01"
+                "shadowColor" : "#FFFFFF01",
+                "sizeUnit" : "px"
               },
               "valueColor" : "rgba(0, 0, 0, 0.54)",
               "valueColorShadow" : "#FFFFFF01",
@@ -588,16 +588,16 @@
               "colorNeedleShadowDown" : "rgba(188,143,143,0.45)",
               "highlightsWidth" : 15,
               "highlights" : [ {
-                "from" : null,
-                "to" : 18,
+                "from" : 0,
+                "to" : 17,
                 "color" : "#224AC2"
               }, {
-                "from" : 18,
-                "to" : 24,
+                "from" : 17,
+                "to" : 35,
                 "color" : "#3B911C"
               }, {
-                "from" : 24,
-                "to" : 40,
+                "from" : 35,
+                "to" : 50,
                 "color" : "#DE2343"
               } ],
               "animation" : true,
