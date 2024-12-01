@@ -659,10 +659,10 @@
                   "col" : 0
                 },
                 "6ae0d17d-4c95-025b-9ecc-75ff530183b2" : {
-                  "sizeX" : 15,
-                  "sizeY" : 8,
-                  "row" : 22,
-                  "col" : 6
+                  "sizeX" : 25,
+                  "sizeY" : 13,
+                  "row" : 20,
+                  "col" : 4
                 }
               },
               "gridSettings" : {
