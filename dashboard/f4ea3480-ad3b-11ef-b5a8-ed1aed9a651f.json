@@ -14,7 +14,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b23de8b0-ad2d-11ef-b5a8-ed1aed9a651f",
+              "deviceId" : "1014ae80-af75-11ef-af67-a38a7671daf5",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
@@ -106,7 +106,7 @@
               "realtime" : {
                 "realtimeType" : 0,
                 "interval" : 10000,
-                "timewindowMs" : 60000,
+                "timewindowMs" : 300000,
                 "quickInterval" : "CURRENT_DAY",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -441,7 +441,7 @@
             "widgetStyle" : { },
             "widgetCss" : "",
             "pageSize" : 1024,
-            "units" : "",
+            "units" : "°C",
             "decimals" : null,
             "noDataDisplayMessage" : "",
             "timewindowStyle" : {
@@ -477,7 +477,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "b23de8b0-ad2d-11ef-b5a8-ed1aed9a651f",
+              "deviceId" : "1014ae80-af75-11ef-af67-a38a7671daf5",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
@@ -530,8 +530,8 @@
               "ticksAngle" : 270,
               "needleCircleSize" : 8,
               "defaultColor" : "#e65100",
-              "minValue" : 10,
-              "maxValue" : 50,
+              "minValue" : 0,
+              "maxValue" : 110,
               "majorTicksCount" : 9,
               "colorMajorTicks" : "#444",
               "minorTicks" : 9,
@@ -593,12 +593,16 @@
                 "color" : "#224AC2"
               }, {
                 "from" : 17,
-                "to" : 35,
+                "to" : 50,
                 "color" : "#3B911C"
               }, {
-                "from" : 35,
-                "to" : 50,
-                "color" : "#DE2343"
+                "from" : 50,
+                "to" : 100,
+                "color" : "#FFD190"
+              }, {
+                "from" : 100,
+                "to" : 110,
+                "color" : "rgb(244, 67, 54)"
               } ],
               "animation" : true,
               "animationDuration" : 500,
@@ -650,17 +654,17 @@
             "main" : {
               "widgets" : {
                 "a2d34aca-a76b-18de-04cc-9574648c435c" : {
-                  "sizeX" : 15,
-                  "sizeY" : 7,
+                  "sizeX" : 32,
+                  "sizeY" : 20,
                   "mobileHeight" : null,
                   "row" : 0,
                   "col" : 0
                 },
                 "6ae0d17d-4c95-025b-9ecc-75ff530183b2" : {
-                  "sizeX" : 6,
-                  "sizeY" : 5,
-                  "row" : 1,
-                  "col" : 16
+                  "sizeX" : 15,
+                  "sizeY" : 8,
+                  "row" : 22,
+                  "col" : 6
                 }
               },
               "gridSettings" : {
