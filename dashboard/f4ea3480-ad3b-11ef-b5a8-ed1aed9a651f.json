@@ -424,7 +424,7 @@
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
             "iconColor" : "#1F6BDD",
-            "useDashboardTimewindow" : false,
+            "useDashboardTimewindow" : true,
             "displayTimewindow" : true,
             "titleFont" : {
               "size" : 16,
@@ -680,15 +680,14 @@
       "entityAliases" : { },
       "filters" : { },
       "timewindow" : {
-        "displayValue" : "",
         "hideAggregation" : false,
         "hideAggInterval" : false,
         "hideTimezone" : false,
         "selectedTab" : 0,
         "realtime" : {
           "realtimeType" : 0,
-          "interval" : 1000,
-          "timewindowMs" : 60000,
+          "interval" : 10000,
+          "timewindowMs" : 3600000,
           "quickInterval" : "CURRENT_DAY",
           "hideInterval" : false,
           "hideLastInterval" : false,
@@ -696,8 +695,8 @@
         },
         "history" : {
           "historyType" : 0,
-          "interval" : 1000,
-          "timewindowMs" : 60000,
+          "interval" : 10000,
+          "timewindowMs" : 3600000,
           "fixedTimewindow" : {
             "startTimeMs" : 1732679449862,
             "endTimeMs" : 1732765849862
@@ -711,7 +710,8 @@
         "aggregation" : {
           "type" : "AVG",
           "limit" : 2500
-        }
+        },
+        "timezone" : null
       },
       "settings" : {
         "stateControllerId" : "entity",
