@@ -16,10 +16,10 @@
               "name" : "",
               "deviceId" : "1014ae80-af75-11ef-af67-a38a7671daf5",
               "dataKeys" : [ {
-                "name" : "temperature",
+                "name" : "proc_temperature",
                 "type" : "timeseries",
-                "label" : "Temperature",
-                "color" : "#2196f3",
+                "label" : "proc_temperature",
+                "color" : "#4caf50",
                 "settings" : {
                   "yAxisId" : "default",
                   "showInLegend" : true,
@@ -89,9 +89,7 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.7198677214381568,
-                "units" : "°C",
-                "decimals" : 0
+                "_hash" : 0.7251039480422892
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
@@ -479,12 +477,12 @@
               "name" : "",
               "deviceId" : "1014ae80-af75-11ef-af67-a38a7671daf5",
               "dataKeys" : [ {
-                "name" : "temperature",
+                "name" : "proc_temperature",
                 "type" : "timeseries",
-                "label" : "Temperature",
+                "label" : "proc_temperature",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.8112863108136217
+                "_hash" : 0.6263183525932403
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
