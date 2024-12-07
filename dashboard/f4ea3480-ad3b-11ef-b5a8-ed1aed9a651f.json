@@ -713,7 +713,25 @@
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
               },
-              "latestDataKeys" : [ ]
+              "latestDataKeys" : [ {
+                "name" : "sensor_temperature",
+                "type" : "timeseries",
+                "label" : "sensor_temperature",
+                "color" : "#f44336",
+                "settings" : {
+                  "__thresholdKey" : true
+                },
+                "_hash" : 0.24385303079924725
+              }, {
+                "name" : "sensor_humidity",
+                "type" : "timeseries",
+                "label" : "sensor_humidity",
+                "color" : "#ffc107",
+                "settings" : {
+                  "__thresholdKey" : true
+                },
+                "_hash" : 0.35459571346342456
+              } ]
             } ],
             "timewindow" : {
               "hideAggregation" : false,
@@ -756,16 +774,69 @@
             "settings" : {
               "showLegend" : true,
               "legendConfig" : {
-                "direction" : "column",
                 "position" : "top",
-                "sortDataKeys" : false,
+                "sortDataKeys" : true,
                 "showMin" : false,
                 "showMax" : false,
                 "showAvg" : true,
                 "showTotal" : false,
                 "showLatest" : false
               },
-              "thresholds" : [ ],
+              "thresholds" : [ {
+                "type" : "latestKey",
+                "yAxisId" : "default",
+                "units" : "°C",
+                "decimals" : 0,
+                "lineColor" : "rgba(0, 0, 0, 0.76)",
+                "lineType" : "solid",
+                "lineWidth" : 1,
+                "startSymbol" : "none",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 5,
+                "showLabel" : true,
+                "labelPosition" : "end",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.76)",
+                "enableLabelBackground" : false,
+                "labelBackground" : "rgba(255,255,255,0.56)",
+                "latestKey" : "sensor_temperature",
+                "latestKeyType" : "timeseries"
+              }, {
+                "type" : "latestKey",
+                "yAxisId" : "default",
+                "units" : "%",
+                "decimals" : 0,
+                "lineColor" : "rgba(0, 0, 0, 0.76)",
+                "lineType" : "solid",
+                "lineWidth" : 1,
+                "startSymbol" : "none",
+                "startSymbolSize" : 5,
+                "endSymbol" : "arrow",
+                "endSymbolSize" : 5,
+                "showLabel" : true,
+                "labelPosition" : "end",
+                "labelFont" : {
+                  "family" : "Roboto",
+                  "size" : 12,
+                  "sizeUnit" : "px",
+                  "style" : "normal",
+                  "weight" : "400",
+                  "lineHeight" : "1"
+                },
+                "labelColor" : "rgba(0, 0, 0, 0.76)",
+                "enableLabelBackground" : false,
+                "labelBackground" : "rgba(255,255,255,0.56)",
+                "latestKey" : "sensor_humidity",
+                "latestKeyType" : "timeseries"
+              } ],
               "dataZoom" : true,
               "stack" : false,
               "yAxis" : {
@@ -974,7 +1045,7 @@
                 "splitLinesColor" : "rgba(0, 0, 0, 0.12)"
               },
               "grid" : {
-                "show" : false,
+                "show" : true,
                 "backgroundColor" : null,
                 "borderWidth" : 1,
                 "borderColor" : "#ccc"
@@ -1018,7 +1089,7 @@
             "titleIcon" : "thermostat",
             "iconColor" : "#1F6BDD",
             "useDashboardTimewindow" : false,
-            "displayTimewindow" : false,
+            "displayTimewindow" : true,
             "titleFont" : {
               "size" : 16,
               "sizeUnit" : "px",
