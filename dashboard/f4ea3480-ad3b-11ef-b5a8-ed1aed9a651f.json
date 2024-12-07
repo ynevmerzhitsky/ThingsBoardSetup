@@ -69,7 +69,7 @@
               },
               "padding" : "12px"
             },
-            "title" : "Humidity",
+            "title" : "ESP32 Sensor Humidity",
             "dropShadow" : true,
             "enableFullscreen" : false,
             "titleStyle" : null,
@@ -204,7 +204,7 @@
               },
               "padding" : "12px"
             },
-            "title" : "Pressure",
+            "title" : "ESP32 Sensor Pressure",
             "dropShadow" : true,
             "enableFullscreen" : false,
             "titleStyle" : null,
@@ -339,7 +339,7 @@
               },
               "padding" : "12px"
             },
-            "title" : "Temperature",
+            "title" : "ESP32 Sensor Temperature",
             "dropShadow" : true,
             "enableFullscreen" : false,
             "titleStyle" : null,
@@ -474,7 +474,7 @@
               },
               "padding" : "12px"
             },
-            "title" : "CPU Temperature",
+            "title" : "IoT Gateway CPU Temperature",
             "dropShadow" : true,
             "enableFullscreen" : false,
             "titleStyle" : null,
