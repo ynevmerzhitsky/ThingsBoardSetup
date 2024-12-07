@@ -419,25 +419,25 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "1014ae80-af75-11ef-af67-a38a7671daf5",
+              "deviceId" : "c94f7080-b473-11ef-970a-c13375eca847",
               "dataKeys" : [ {
-                "name" : "proc_temperature",
+                "name" : "temperature",
                 "type" : "timeseries",
-                "label" : "proc_temperature",
+                "label" : "temperature",
                 "color" : "rgba(63, 82, 221, 1)",
                 "settings" : { },
-                "_hash" : 0.6935829059380665
+                "_hash" : 0.10266558081550592
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
               },
               "latestDataKeys" : [ {
-                "name" : "proc_temperature",
+                "name" : "temperature",
                 "type" : "timeseries",
                 "label" : "Latest",
                 "color" : "rgba(63, 82, 221, 1)",
                 "settings" : { },
-                "_hash" : 0.6935829059380665,
+                "_hash" : 0.10266558081550592,
                 "units" : null,
                 "decimals" : null
               } ]
