@@ -364,7 +364,7 @@
             "pageSize" : 1024,
             "noDataDisplayMessage" : "",
             "useDashboardTimewindow" : true,
-            "decimals" : 0,
+            "decimals" : 2,
             "titleColor" : "rgba(0, 0, 0, 0.87)",
             "borderRadius" : null,
             "units" : "°C",
