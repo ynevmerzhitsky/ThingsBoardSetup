@@ -24,7 +24,7 @@
       "type" : "Success"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 10,
+      "toIndex" : 9,
       "type" : "Success"
     }, {
       "fromIndex" : 2,
@@ -62,10 +62,6 @@
       "fromIndex" : 9,
       "toIndex" : 7,
       "type" : "True"
-    }, {
-      "fromIndex" : 10,
-      "toIndex" : 9,
-      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -269,13 +265,13 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1262,
-        "layoutY" : 193
+        "layoutX" : 1074,
+        "layoutY" : 201
       },
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "return msg.temperature < 30 && msg.temperature >20;"
+        "tbelScript" : "return msg.temperature < 35 && msg.temperature > 10;"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
@@ -290,32 +286,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 971,
-        "layoutY" : 178
-      },
-      "configuration" : {
-        "interval" : 60,
-        "strategy" : "FIRST",
-        "outMsgType" : null,
-        "maxPendingMsgs" : 100,
-        "maxRetries" : 3
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "4d991ba0-b4fd-11ef-b5a8-ed1aed9a651f"
-      },
-      "name" : "Deduplication",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.deduplication.TbMsgDeduplicationNode"
     } ],
     "ruleChainConnections" : null
   },
