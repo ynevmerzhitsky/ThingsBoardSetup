@@ -93,8 +93,8 @@
       "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 920,
-        "layoutY" : 234
+        "layoutX" : 1004,
+        "layoutY" : 197
       },
       "configuration" : {
         "defaultTTL" : 0
@@ -269,8 +269,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1187,
-        "layoutY" : 229
+        "layoutX" : 1288,
+        "layoutY" : 212
       },
       "configuration" : {
         "scriptLang" : "TBEL",
