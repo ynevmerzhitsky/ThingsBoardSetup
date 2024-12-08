@@ -32,10 +32,6 @@
       "type" : "Success"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 1,
-      "type" : "Post telemetry"
-    }, {
-      "fromIndex" : 3,
       "toIndex" : 2,
       "type" : "Post attributes"
     }, {
@@ -59,9 +55,17 @@
       "toIndex" : 8,
       "type" : "Attributes Updated"
     }, {
+      "fromIndex" : 3,
+      "toIndex" : 10,
+      "type" : "Post telemetry"
+    }, {
       "fromIndex" : 9,
       "toIndex" : 7,
       "type" : "True"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 1,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -89,8 +93,8 @@
       "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 724,
-        "layoutY" : 178
+        "layoutX" : 853,
+        "layoutY" : 204
       },
       "configuration" : {
         "defaultTTL" : 0
@@ -286,6 +290,32 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 695,
+        "layoutY" : 143
+      },
+      "configuration" : {
+        "interval" : 60,
+        "strategy" : "FIRST",
+        "outMsgType" : null,
+        "maxPendingMsgs" : 100,
+        "maxRetries" : 3
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d991ba0-b4fd-11ef-b5a8-ed1aed9a651f"
+      },
+      "name" : "Deduplication",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.deduplication.TbMsgDeduplicationNode"
     } ],
     "ruleChainConnections" : null
   },
