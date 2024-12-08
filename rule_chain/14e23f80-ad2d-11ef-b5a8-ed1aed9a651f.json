@@ -24,12 +24,16 @@
       "type" : "Success"
     }, {
       "fromIndex" : 1,
-      "toIndex" : 9,
+      "toIndex" : 10,
       "type" : "Success"
     }, {
       "fromIndex" : 2,
       "toIndex" : 7,
       "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 1,
+      "type" : "Post telemetry"
     }, {
       "fromIndex" : 3,
       "toIndex" : 2,
@@ -55,16 +59,12 @@
       "toIndex" : 8,
       "type" : "Attributes Updated"
     }, {
-      "fromIndex" : 3,
-      "toIndex" : 10,
-      "type" : "Post telemetry"
-    }, {
       "fromIndex" : 9,
       "toIndex" : 7,
       "type" : "True"
     }, {
       "fromIndex" : 10,
-      "toIndex" : 1,
+      "toIndex" : 9,
       "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
@@ -93,8 +93,8 @@
       "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 853,
-        "layoutY" : 204
+        "layoutX" : 673,
+        "layoutY" : 163
       },
       "configuration" : {
         "defaultTTL" : 0
@@ -269,8 +269,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1116,
-        "layoutY" : 189
+        "layoutX" : 1262,
+        "layoutY" : 193
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -293,8 +293,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 695,
-        "layoutY" : 143
+        "layoutX" : 971,
+        "layoutY" : 178
       },
       "configuration" : {
         "interval" : 60,
