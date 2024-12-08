@@ -271,7 +271,7 @@
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "return msg.temperature < 35 && msg.temperature > 10;"
+        "tbelScript" : "return msg.temperature < 150 && msg.temperature > 0;"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
