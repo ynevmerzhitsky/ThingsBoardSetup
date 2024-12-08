@@ -275,7 +275,7 @@
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "return msg.temperature < 150 && msg.temperature > 0;"
+        "tbelScript" : "if(msg.temperature != null){\n    return msg.temperature < 150 && msg.temperature > 50;\n}\n\nif (msg.sensor_temperature != null) {\n    return msg.sensor_temperature < 50 && msg.sensor_temperature > 10;\n}\n\n"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
