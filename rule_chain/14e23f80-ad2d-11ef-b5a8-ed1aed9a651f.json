@@ -32,6 +32,10 @@
       "type" : "Success"
     }, {
       "fromIndex" : 3,
+      "toIndex" : 1,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 3,
       "toIndex" : 2,
       "type" : "Post attributes"
     }, {
@@ -55,16 +59,8 @@
       "toIndex" : 8,
       "type" : "Attributes Updated"
     }, {
-      "fromIndex" : 3,
-      "toIndex" : 10,
-      "type" : "Post telemetry"
-    }, {
       "fromIndex" : 9,
       "toIndex" : 7,
-      "type" : "True"
-    }, {
-      "fromIndex" : 10,
-      "toIndex" : 1,
       "type" : "True"
     } ],
     "firstNodeIndex" : 0,
@@ -93,8 +89,8 @@
       "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 1004,
-        "layoutY" : 197
+        "layoutX" : 724,
+        "layoutY" : 178
       },
       "configuration" : {
         "defaultTTL" : 0
@@ -286,30 +282,6 @@
         "id" : "bf0f4f51-b4fa-11ef-b5a8-ed1aed9a651f"
       },
       "name" : "Filter telemetry",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 699,
-        "layoutY" : 161
-      },
-      "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "return msg.temperature >= 0 && msg.temperature < 100;"
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugMode" : false,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "bf0f4f52-b4fa-11ef-b5a8-ed1aed9a651f"
-      },
-      "name" : "Filter invalid data",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
