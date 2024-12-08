@@ -61,6 +61,10 @@
     }, {
       "fromIndex" : 9,
       "toIndex" : 7,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 7,
       "type" : "True"
     } ],
     "firstNodeIndex" : 0,
