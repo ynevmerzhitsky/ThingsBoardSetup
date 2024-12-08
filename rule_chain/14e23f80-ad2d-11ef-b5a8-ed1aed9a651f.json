@@ -93,8 +93,8 @@
       "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 673,
-        "layoutY" : 163
+        "layoutX" : 638,
+        "layoutY" : 186
       },
       "configuration" : {
         "defaultTTL" : 0
@@ -159,8 +159,8 @@
       "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 682,
-        "layoutY" : 279
+        "layoutX" : 644,
+        "layoutY" : 329
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -182,8 +182,8 @@
       "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 652,
-        "layoutY" : 344
+        "layoutX" : 559,
+        "layoutY" : 401
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -205,8 +205,8 @@
       "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 558,
-        "layoutY" : 469
+        "layoutX" : 497,
+        "layoutY" : 475
       },
       "configuration" : {
         "timeoutInSeconds" : 60
@@ -226,8 +226,8 @@
       "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 1528,
-        "layoutY" : 109
+        "layoutX" : 1098,
+        "layoutY" : 132
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE"
@@ -247,8 +247,8 @@
       "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 552,
-        "layoutY" : 614
+        "layoutX" : 428,
+        "layoutY" : 568
       },
       "configuration" : {
         "scope" : "SERVER_SCOPE"
@@ -269,8 +269,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1074,
-        "layoutY" : 201
+        "layoutX" : 848,
+        "layoutY" : 258
       },
       "configuration" : {
         "scriptLang" : "TBEL",
